@@ -10,3 +10,6 @@ end
   puts "The line is currently: #{wait_list.join(" ")}"
   end
 end
+
+def take_a_number(katz_deli, name)
+end
