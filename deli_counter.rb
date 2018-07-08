@@ -19,5 +19,7 @@ end
 
 
 def now_serving
+  
+  puts "Currently serving #{name}"
 end
 
