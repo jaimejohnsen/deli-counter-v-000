@@ -12,8 +12,6 @@ end
 end
 
 def take_a_number(katz_deli, name)
-  take_a_number = []
-  last_in_line = katz_deli.last
-  last_in_line index + 1, name
-  take_a_number << "#{last_in_line}"
+  katz_deli << name
+  katz_deli.length
 end
