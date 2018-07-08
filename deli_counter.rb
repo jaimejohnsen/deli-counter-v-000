@@ -13,6 +13,7 @@ end
 
 def take_a_number(katz_deli, name)
   take_a_number = []
-  katz_deli.last + 1 + new_cust_name
-  take_a_number << new_cust_name
+  last_in_line = katz_deli.last + 1 + new_cust_name
+  
+  take_a_number << last_in_line
 end
