@@ -14,5 +14,5 @@ end
 def take_a_number(katz_deli, name)
   take_a_number = []
   katz_deli.last + 1 + new_cust_name
-  take_a_number << 
+  take_a_number << new_cust_name
 end
