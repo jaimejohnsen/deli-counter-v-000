@@ -23,7 +23,7 @@ def now_serving(katz_deli)
     puts "There is nobody waiting to be served!"
   else next_person = []
     next_person = katz_deli.shift
-    next_person << 
+    name = next_person.first 
   puts "Currently serving #{name}"
 end
 
