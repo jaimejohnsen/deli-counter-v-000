@@ -18,11 +18,11 @@ def take_a_number(katz_deli, name)
 end
 
 
-def now_serving
+def now_serving(name)
   if katz_deli.length < 1 
     puts "There is nobody waiting to be served!"
   else next_person = katz_deli.shift
-    
+    next_person << 
   puts "Currently serving #{name}"
 end
 
